@@ -1,0 +1,37 @@
+debug = false
+
+logLevel = "INFO"
+defaultEntryPoints = ["https","http"]
+
+[entryPoints]
+  [entryPoints.http]
+  address = ":80"
+  compress = true
+    [entryPoints.http.redirect]
+    entryPoint = "https"
+  [entryPoints.https]
+  address = ":443"
+  compress = true
+  [entryPoints.https.tls]
+  minVersion = "VersionTLS12"
+  sniStrict = true
+
+[retry]
+
+[api]
+entryPoint = "api"
+dashboard = true
+
+[docker]
+endpoint = "unix:///var/run/docker.sock"
+domain = "www.example.com"
+watch = true
+exposedByDefault = false
+
+[acme]
+email = "acme@example.com"
+storage = "acme.json"
+entryPoint = "https"
+onHostRule = true
+[acme.httpChallenge]
+entryPoint = "http"

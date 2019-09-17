@@ -1,0 +1,7 @@
+global:
+        scrape_interval: 60s
+        evaluation_interval: 60s
+scrape_configs:
+        - job_name: 'qbt'
+          static_configs:
+                  - targets: ['qbittorrent-exporter:9561']

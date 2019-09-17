@@ -1,0 +1,183 @@
+{
+  "exporterServerSettings": {
+    "port": 9561,
+    "host": "0.0.0.0"
+  },
+  "qbtSettings": {
+    "webUiAddress": "http://qbittorrent:8080"
+  },
+  "maindataCollectorContainerSettings": {
+    "torrentsCollectors": {
+      "UPLOAD_PAYLOAD_RATE_BYTES_PER_SECOND": {
+        "enabled": false
+      },
+      "DOWNLOAD_SESSION_BYTES": {
+        "enabled": false
+      },
+      "LEECHERS_AVAILABLE": {
+        "enabled": false
+      },
+      "RATIO": {
+        "enabled": false
+      },
+      "ACTIVE_TIME_SECONDS": {
+        "enabled": false
+      },
+      "COMPLETED_BYTES": {
+        "enabled": false
+      },
+      "UPLOAD_TOTAL_BYTES": {
+        "enabled": false
+      },
+      "UPLOAD_SESSION_BYTES": {
+        "enabled": false
+      },
+      "SEEDERS_AVAILABLE": {
+        "enabled": false
+      },
+      "DOWNLOAD_PAYLOAD_RATE_BYTES_PER_SECOND": {
+        "enabled": false
+      },
+      "SEEDERS_CONNECTED": {
+        "enabled": false
+      },
+      "LEECHERS_CONNECTED": {
+        "enabled": false
+      },
+      "DOWNLOAD_REMAINING_BYTES": {
+        "enabled": false
+      },
+      "DOWNLOAD_TOTAL_BYTES": {
+        "enabled": false
+      }
+    },
+    "serverStateCollectors": {
+      "DISK_QUEUE_SIZE_BYTES": {
+        "enabled": true
+      },
+      "NETWORK_PEER_CONNECTION_COUNT": {
+        "enabled": true
+      },
+      "ALL_TIME_UPLOAD_BYTES": {
+        "enabled": true
+      },
+      "CURRENT_SESSION_UPLOADED_BYTES": {
+        "enabled": false
+      },
+      "DISK_READ_CACHE_HIT_PERCENT": {
+        "enabled": true
+      },
+      "CURRENT_SESSION_WASTED_BYTES": {
+        "enabled": false
+      },
+      "DISK_AVERAGE_CACHE_QUEUE_TIME_MS": {
+        "enabled": true
+      },
+      "DISK_CACHE_SIZE_BYTES": {
+        "enabled": true
+      },
+      "DISK_FREE_SPACE_BYTES": {
+        "enabled": false
+      },
+      "CURRENT_SESSION_DOWNLOADED_BYTES": {
+        "enabled": false
+      },
+      "DISK_READ_CACHE_OVERLOAD_PERCENT": {
+        "enabled": false
+      },
+      "ALL_TIME_SHARE_RATIO": {
+        "enabled": true
+      },
+      "DISK_QUEUE_JOB_COUNT": {
+        "enabled": true
+      },
+      "NETWORK_DOWNLOAD_SPEED_BYTES_PER_SECOND": {
+        "enabled": false
+      },
+      "NETWORK_UPLOAD_SPEED_BYTES_PER_SECOND": {
+        "enabled": false
+      },
+      "DISK_WRITE_CACHE_OVERLOAD_PERCENT": {
+        "enabled": false
+      },
+      "NETWORK_UPLOAD_SPEED_CAP_BYTES_PER_SECOND": {
+        "enabled": false
+      },
+      "NETWORK_DOWNLOAD_SPEED_CAP_BYTES_SER_SECOND": {
+        "enabled": false
+      },
+      "ALL_TIME_DOWNLOAD_BYTES": {
+        "enabled": true
+      },
+      "NETWORK_DHT_NODE_COUNT": {
+        "enabled": true
+      }
+    },
+    "aggregateTorrentCollectors": {
+      "LEECHERS_CONNECTED": {
+        "all": false,
+        "eachCategory": false
+      },
+      "SEEDERS_CONNECTED": {
+        "all": false,
+        "eachCategory": false
+      },
+      "DOWNLOAD_REMAINING_BYTES": {
+        "all": false,
+        "eachCategory": false
+      },
+      "SIZE_TOTAL_BYTES": {
+        "all": false,
+        "eachCategory": false
+      },
+      "SIZE_WANTED_BYTES": {
+        "all": false,
+        "eachCategory": false
+      },
+      "SEEDERS_AVAILABLE": {
+        "all": false,
+        "eachCategory": false
+      },
+      "UPLOAD_TOTAL_BYTES": {
+        "all": false,
+        "eachCategory": false
+      },
+      "UPLOAD_SESSION_BYTES": {
+        "all": false,
+        "eachCategory": false
+      },
+      "DOWNLOAD_TOTAL_BYTES": {
+        "all": false,
+        "eachCategory": false
+      },
+      "TORRENT_COUNT": {
+        "all": false,
+        "eachCategory": false
+      },
+      "COMPLETED_BYTES": {
+        "all": false,
+        "eachCategory": false
+      },
+      "DOWNLOAD_PAYLOAD_RATE_BYTES_PER_SECOND": {
+        "all": false,
+        "eachCategory": false
+      },
+      "DOWNLOAD_SESSION_BYTES": {
+        "all": false,
+        "eachCategory": false
+      },
+      "LEECHERS_AVAILABLE": {
+        "all": false,
+        "eachCategory": false
+      },
+      "UPLOAD_PAYLOAD_RATE_BYTES_PER_SECOND": {
+        "all": false,
+        "eachCategory": false
+      },
+      "ACTIVE_TIME_SECONDS": {
+        "all": false,
+        "eachCategory": false
+      }
+    }
+  }
+}
