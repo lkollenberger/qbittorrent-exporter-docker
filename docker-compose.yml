@@ -56,7 +56,7 @@ services:
                         - "traefik.frontend.headers.customResponseHeaders=Strict-Transport-Security:max-age=15552000"
         qbittorrent-exporter:
                 container_name: qbittorrent-exporter
-                image: lkollenberger/qbittorrent-exporter:2.0.0-dev
+                image: lkollenberger/qbittorrent-exporter:2.0.0-dev.5
                 depends_on:
                         - prometheus
                         - qbittorrent
