@@ -9,46 +9,46 @@
   "maindataCollectorContainerSettings": {
     "torrentsCollectors": {
       "UPLOAD_PAYLOAD_RATE_BYTES_PER_SECOND": {
-        "enabled": false
+        "enabled": true
       },
       "DOWNLOAD_SESSION_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "LEECHERS_AVAILABLE": {
-        "enabled": false
+        "enabled": true
       },
       "RATIO": {
-        "enabled": false
+        "enabled": true
       },
       "ACTIVE_TIME_SECONDS": {
-        "enabled": false
+        "enabled": true
       },
       "COMPLETED_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "UPLOAD_TOTAL_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "UPLOAD_SESSION_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "SEEDERS_AVAILABLE": {
-        "enabled": false
+        "enabled": true
       },
       "DOWNLOAD_PAYLOAD_RATE_BYTES_PER_SECOND": {
-        "enabled": false
+        "enabled": true
       },
       "SEEDERS_CONNECTED": {
-        "enabled": false
+        "enabled": true
       },
       "LEECHERS_CONNECTED": {
-        "enabled": false
+        "enabled": true
       },
       "DOWNLOAD_REMAINING_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "DOWNLOAD_TOTAL_BYTES": {
-        "enabled": false
+        "enabled": true
       }
     },
     "serverStateCollectors": {
@@ -62,13 +62,13 @@
         "enabled": true
       },
       "CURRENT_SESSION_UPLOADED_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "DISK_READ_CACHE_HIT_PERCENT": {
         "enabled": true
       },
       "CURRENT_SESSION_WASTED_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "DISK_AVERAGE_CACHE_QUEUE_TIME_MS": {
         "enabled": true
@@ -77,13 +77,13 @@
         "enabled": true
       },
       "DISK_FREE_SPACE_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "CURRENT_SESSION_DOWNLOADED_BYTES": {
-        "enabled": false
+        "enabled": true
       },
       "DISK_READ_CACHE_OVERLOAD_PERCENT": {
-        "enabled": false
+        "enabled": true
       },
       "ALL_TIME_SHARE_RATIO": {
         "enabled": true
@@ -92,19 +92,19 @@
         "enabled": true
       },
       "NETWORK_DOWNLOAD_SPEED_BYTES_PER_SECOND": {
-        "enabled": false
+        "enabled": true
       },
       "NETWORK_UPLOAD_SPEED_BYTES_PER_SECOND": {
-        "enabled": false
+        "enabled": true
       },
       "DISK_WRITE_CACHE_OVERLOAD_PERCENT": {
-        "enabled": false
+        "enabled": true
       },
       "NETWORK_UPLOAD_SPEED_CAP_BYTES_PER_SECOND": {
-        "enabled": false
+        "enabled": true
       },
       "NETWORK_DOWNLOAD_SPEED_CAP_BYTES_SER_SECOND": {
-        "enabled": false
+        "enabled": true
       },
       "ALL_TIME_DOWNLOAD_BYTES": {
         "enabled": true
@@ -115,68 +115,68 @@
     },
     "aggregateTorrentCollectors": {
       "LEECHERS_CONNECTED": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "SEEDERS_CONNECTED": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "DOWNLOAD_REMAINING_BYTES": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "SIZE_TOTAL_BYTES": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "SIZE_WANTED_BYTES": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "SEEDERS_AVAILABLE": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "UPLOAD_TOTAL_BYTES": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "UPLOAD_SESSION_BYTES": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "DOWNLOAD_TOTAL_BYTES": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "TORRENT_COUNT": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "COMPLETED_BYTES": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "DOWNLOAD_PAYLOAD_RATE_BYTES_PER_SECOND": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "DOWNLOAD_SESSION_BYTES": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "LEECHERS_AVAILABLE": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "UPLOAD_PAYLOAD_RATE_BYTES_PER_SECOND": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       },
       "ACTIVE_TIME_SECONDS": {
-        "all": false,
-        "eachCategory": false
+        "all": true,
+        "eachCategory": true
       }
     }
   }
